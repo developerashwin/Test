@@ -13,6 +13,7 @@ namespace GitTest
     {
         protected void Application_Start()
         {
+        //Test
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
